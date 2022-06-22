@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: micro-7178-2977-9468-submit
-  AWS_PROFILE: microlab
-  AWS_REGION: us-east-1
+  AWS_BUCKET:	eks-submit
+  AWS_PROFILE: eks-user-g6
+  AWS_REGION: ap-southeast-1
   JWT_SECRET: hello
   POSTGRES_DB: postgres
-  POSTGRES_HOST: cdr.cbpe15gmni9r.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100  
+  POSTGRES_HOST: cdr.cv3dvecjak28.ap-southeast-1.rds.amazonaws.com
+  URL: http://a382e3f652e0e485bb7e96c9f119f091-1674103387.ap-southeast-1.elb.amazonaws.com:8100  
 metadata:
   name: env-config
